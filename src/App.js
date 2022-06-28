@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
-import Body from './components/Body'
+import Body from './components/Body';
+import Main from './components/Main';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Body img={CAT1}></Body>
+      <Main></Main>
     </div>
   );
 }
