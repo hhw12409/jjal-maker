@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
 
 const GlobalStyle = createGlobalStyle`
+  ${reset}
   :root {
     // font
     --font-size-base: 1.125rem;
